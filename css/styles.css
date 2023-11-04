@@ -1,0 +1,67 @@
+header .profile-pic {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    color: #9297ac;
+}
+body {
+    /* color: whitesmoke; */
+    /* color: #686d81; */
+    margin: 1rem;
+    color: #9297ac;
+    background: #0c0c14;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+
+} 
+
+h1 {
+    /* color: #e6b450; */
+    color: #8ed048;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    margin-top: -2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+h3{
+    color: #8ed048;
+    font-size: 1.5rem;
+}
+
+.company {
+    color: #36a9c6;
+    font-size: 1.125rem
+}
+
+.job-title{
+    color: whitesmoke;
+}
+
+/* hr {
+    color: #38393f;
+} */
+
+ul li {
+    list-style: square;
+}
+
+#counterScript {
+    color: #36a9c6;
+    text-align: center;
+}
