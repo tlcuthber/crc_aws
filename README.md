@@ -1,6 +1,6 @@
 # Cloud Resume Challenge
 
-## What is the Cloud Resume Challenge
+## What is the Cloud Resume Challenge?
 The Cloud Resume Challenge was developed by Forrest Brazeal. The goal of the challenge is to host your resume as a static website via one of the major cloud providers - AWS, Azure or GCP. To learn more about the challenge, visit: [Cloud Resume Challenge](https://cloudresumechallenge.dev)
 
 ## Current Progress
@@ -29,4 +29,4 @@ The Cloud Resume Challenge was developed by Forrest Brazeal. The goal of the cha
     - [ ] Blog
 
 ## My Website
-[My Cloud Resume](www.toyokocuthbert.com)
+[My Cloud Resume](https://www.toyokocuthbert.com)
