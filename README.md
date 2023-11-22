@@ -17,11 +17,11 @@ The Cloud Resume Challenge was developed by Forrest Brazeal. The goal of the cha
     - [X] API Gateway to trigger Lambda Function
     - [X] Lambda function (using Python) to get/update visitor counter
     - [X] Source Control => Github
- - [ ] Chunk 3: Front-end / back-end integration
+ - [X] Chunk 3: Front-end / back-end integration
     - [X] Javascript to display visitor counter
-    - [ ] Tests
+    - [X] Tests
  - [ ] Chunk 4: Automation / CI
-    - [ ] IaC - Will be using Terraform
+    - [X] IaC - Will be using Terraform
     - [ ] CI/CD
         - [ ] Backend
         - [ ] Frontend
