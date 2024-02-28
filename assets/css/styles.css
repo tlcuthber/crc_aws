@@ -2,8 +2,8 @@ header .profile-pic {
     margin-top: 50px;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    border: 3px solid white;
+    /* border-radius: 50%;
+    border: 3px solid white; */
     transition: all .5s;
     display: block;
     margin-left: auto;
