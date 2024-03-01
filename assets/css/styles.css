@@ -2,20 +2,40 @@ header .profile-pic {
     margin-top: 50px;
     width: 150px;
     height: 150px;
-    /* border-radius: 50%;
-    border: 3px solid white; */
+    border-radius: 50%;
+    border: 3px solid white;
     transition: all .5s;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+#icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1.5rem;
+  }
+
+header .github-icon, .linkedin-icon {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+header .credly-icon {
+    width: 50px;
+    height: 25px;
+    padding: 10px;
+
+}
+
 hr {
     color: #9297ac;
 }
 body {
-    /* color: whitesmoke; */
-    /* color: #686d81; */
     margin: 1rem;
     color: #9297ac;
     background: #0c0c14;
@@ -26,7 +46,6 @@ body {
 } 
 
 h1 {
-    /* color: #e6b450; */
     color: #8ed048;
     text-align: center;
     font-size: 3rem;
@@ -44,18 +63,14 @@ h3{
     font-size: 1.5rem;
 }
 
-.company {
+.company, .projects {
     color: #36a9c6;
     font-size: 1.125rem
 }
 
-.job-title{
+.job-title, .technologies {
     color: whitesmoke;
 }
-
-/* hr {
-    color: #38393f;
-} */
 
 ul li {
     list-style: square;

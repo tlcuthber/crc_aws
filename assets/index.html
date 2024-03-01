@@ -10,9 +10,14 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <header>
-        <!-- <img src="img/me-asbtract1.JPG" alt="Profile Picture" class="profile-pic"> -->
+        <img src="img/me-abstract2.JPG" alt="Profile Picture" class="profile-pic">
         <h1>Toyoko Cuthbert</h1>
         <h2>Security Consulting Engineer</h2>
+        <div id="icons">
+            <a href="https://github.com/y0k0r"><img src="img/github-mark-white.png" alt="Github Icon" class="github-icon"></a>
+            <a href="https://www.credly.com/users/toyoko-cuthbert"><img src="img/Credly_Logo_White_1-Inch.png" alt="Credly Icon" class="credly-icon"></a>
+            <a href="https://www.linkedin.com/in/toyokocuthbert/"><img src="img/In-White-26.png" alt="LinkedIn Icon" class="linkedin-icon"></a>
+        </div>
         <hr>
     </header>
     <body>
@@ -23,29 +28,46 @@
                    Graduation Date: May 2016<br>
                    GPA: 3.52</p>
 
-                <p>BS, Computer Science
-                   University of North Carolina at <br>
-                   Pembroke, Pembroke, NC<br>
+                <p>BS, Computer Science<br>
+                   University of North Carolina at Pembroke<br>
+                   Pembroke, NC<br>
                    Graduation Date: May 2012</p>
+        </section>
+
+        <section id="projects">
+            <h3>PROJECTS</h3>
+                <span class="projects"><strong>SEVERLESS RESUME WEBSITE</strong></span><br>
+                <span class="technologies"><b>Technologies Used:</b> <em>AWS, Terraform, Python, Javascript, HTML, CSS, Git </em></span>
+                <ul>
+                    <li>Designed and implemented a serverless web application using AWS services such as API Gateway, CloudFront, Lambda, and S3, reducing infrastructure costs and improving scalability.</li>
+                    <li>Implemented a visitor counter for the website using Python for the backend logic and JavaScript for frontend interaction, providing real-time insights into website traffic.</li>
+                    <li>Utilized AWS DynamoDB to store and manage data for the web application, ensuring fast and reliable access to information</li>
+                    <li>Configured a custom domain for the web application using AWS Route 53, providing a more professional and branded user experience.</li>
+                    <li>Implemented a visitor counter for the website using Python for the backend logic and JavaScript for frontend interaction, providing real-time insights into website traffic.</li>
+                    <li>Utilized Terraform to implement Infrastructure as Code (IaC), configuring AWS resources such as API Gateway, Lambda functions, DynamoDB tables, and S3 buckets for the project, ensuring consistent and reproducible infrastructure deployments.</li>
+                    <li>Implemented a CI/CD pipeline using GitHub Actions to automate the build, test, and deployment process, integrated with Cypress for smoke testing, ensuring code quality and deployment reliability.</li>
+                </ul>
         </section>
 
         <section id="experience">
             <h3>EXPERIENCE</h3>
-                <span class="company"><strong>CISCO SYSTEMS</strong> | January 2019 &mdash; Present</span><br>
+                <span class="company"><strong>CISCO SYSTEMS</strong> | January 2019 &mdash; December 2023</span><br>
                 <span class="job-title"><em>Security Consulting Engineer</em></span>
                 <ul>
-                    <li>Drives technology design, implementation, execution and/or
+                    <li>Drove technology design, implementation, execution and/or
                     optimization for customer projects/accounts.</li>
-                    <li>Works with customers to plan, design, configure and/or diagnose Cisco&#39;s
+                    <li>Worked with customers to plan, design, configure and/or diagnose Cisco&#39;s
                     suite of products, services, and solutions to accelerate customer
                     outcomes.</li>
-                    <li>Assists customers with integration and implementation of tools, systems,
-                    and service assurance.</li>
-                    <li>Builds customer simulations in test labs to resolve/validate complex
-                    problems and compatibility issues.</li>
-                    <li>Creates and delivers customer collateral, portals, documentation, and
-                    knowledge transfer.</li>
-                    <li>Leveraged Cisco ISE and ACAS APIs to create a custom script to bridge product functionality and containerized the application using Docker for ease of deployment</li>
+                    <li>Designed and implemented end-to-end Cisco Identity Services Engine (ISE) solutions, ensuring seamless integration with clients' existing network infrastructure and security policies.</li>
+                    <li>Spearheaded the deployment and configuration of Cisco ISE for comprehensive network access control, encompassing wired, wireless, and VPN environments, to enhance overall network security posture.</li>
+                    <li>Conducted thorough assessments of clients' network security requirements and translated them into effective Cisco ISE policies, addressing regulatory compliance and industry best practices.</li>
+                    <li>Collaborated with cross-functional teams to troubleshoot and resolve complex issues related to Cisco ISE implementation, ensuring minimal disruption to network services while maintaining a secure access environment.</li>
+                    <li>Led training sessions for IT teams on Cisco ISE functionalities, best practices, and troubleshooting techniques, contributing to increased operational efficiency.</li>
+                    <li>Implemented the integration of Cisco ISE with third-party solutions, including Mobile Device Management (MDM) platforms and vulnerability assessment tools, to enhance network security and visibility.</li>
+                    <li>Developed a custom script utilizing Cisco ISE and Tenable APIs to extend the capabilities of the native integration, enhancing the interoperability and functionality of both systems.</li>
+                    <li>Containerized the custom script using Docker, ensuring portability while simplifying deployment and management across various environments.</li>
+
                 </ul>
                 <span class="company"><strong>KAZTRONIXS</strong> | October 2016 &mdash; January 2019</span><br>
                 <span class="job-title"><em>System Engineer</em></span>
@@ -102,6 +124,8 @@
         <section id = "skills">
             <h3>SKILLS</h3>
             <ul>
+                <li>Cloud Platforms: AWS</li>
+                <li>Infrastructure as Code (IaC) Tools: Terraform</li>
                 <li>Security: ISE, ASA, Firepower, VPN</li>
                 <li>Virtualization: VMware ESXi</li>
                 <li>Programming Languages: Python</li>
