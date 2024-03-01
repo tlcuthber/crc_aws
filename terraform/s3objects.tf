@@ -30,10 +30,10 @@ resource "aws_s3_object" "visitorCounter-js" {
   etag         = filemd5("../assets/js/visitorCounter.js")
 }
 
-# resource "aws_s3_object" "me-abstract1-jpg"{
-#     bucket = aws_s3_bucket.tc_com.id
-#     key = "img/me-abstract1.JPG"
-#     source = "../assets/img/me-abstract1.JPG"
-#     content_type = "image/jpeg"
-#     etag = filemd5("../assets/img/me-abstract1.JPG")
-# }
+resource "aws_s3_object" "me-abstract2-jpg"{
+    bucket = aws_s3_bucket.tc_com.id
+    key = "img/me-abstract2.JPG"
+    source = "../assets/img/me-abstract2.JPG"
+    content_type = "image/jpeg"
+    etag = filemd5("../assets/img/me-abstract2.JPG")
+}
