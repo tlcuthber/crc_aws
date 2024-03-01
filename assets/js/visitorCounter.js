@@ -1,4 +1,4 @@
-const url = 'https://7cbbftp5r6.execute-api.us-east-1.amazonaws.com/Prod/crc-update-visitor-counter'
+const url = 'https://u5s76wgqz1.execute-api.us-east-1.amazonaws.com/prod/update-crc-counter'
 
 // Triggers API
 async function getData() {
