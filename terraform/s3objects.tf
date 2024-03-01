@@ -59,5 +59,5 @@ resource "aws_s3_object" "In_White_26_png"{
     key = "img/In-White-26.png"
     source = "../assets/img/In-White-26.png"
     content_type = "image/png"
-    etag = filemd5("../assets/img/In-White-26.png)
+    etag = filemd5("../assets/img/In-White-26.png")
 }
