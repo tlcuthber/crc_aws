@@ -80,3 +80,16 @@ ul li {
     color: #36a9c6;
     text-align: center;
 }
+
+footer .github-icon, .linkedin-icon {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+footer .credly-icon {
+    width: 50px;
+    height: 25px;
+    padding: 10px;
+
+}
