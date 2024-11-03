@@ -19,7 +19,7 @@ header .profile-pic {
     margin-top: -1.5rem;
   }
 
-header .github-icon, .linkedin-icon {
+header .github-icon, .linkedin-icon, .pdf-icon {
     width: 25px;
     height: 25px;
     padding: 10px;
