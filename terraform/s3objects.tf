@@ -22,6 +22,14 @@ resource "aws_s3_object" "styles_css" {
   etag         = filemd5("../assets/css/styles.css")
 }
 
+resource "aws_s3_object" "resume"{
+    bucket = aws_s3_bucket.tc_com.id
+    key = "Resume_TRivera_CRC.pdf"
+    source = "../assets/Resume_TRivera_CRC.pdf"
+    content_type = "application/pdf"
+    etag = filemd5("../assets/Resume_TRivera_CRC.pdf")
+}
+
 resource "aws_s3_object" "visitorCounter_js" {
   bucket       = aws_s3_bucket.tc_com.id
   key          = "js/visitorCounter.js"
@@ -60,4 +68,12 @@ resource "aws_s3_object" "In_White_26_png"{
     source = "../assets/img/In-White-26.png"
     content_type = "image/png"
     etag = filemd5("../assets/img/In-White-26.png")
+}
+
+resource "aws_s3_object" "pdf_download_png"{
+    bucket = aws_s3_bucket.tc_com.id
+    key = "img/pdf-download.png"
+    source = "../assets/img/pdf-download.png"
+    content_type = "image/png"
+    etag = filemd5("../assets/img/pdf-download.png")
 }
