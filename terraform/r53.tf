@@ -50,6 +50,8 @@ resource "aws_route53_record" "www_tc_com" {
   }
 }
 
+
+# ToyokoRivera.com
 resource "aws_route53_zone" "tr_com" {
   name = "toyokorivera.com"
 }
@@ -76,6 +78,30 @@ resource "aws_route53domains_registered_domain" "domain_tr_com" {
   admin_privacy      = true
   registrant_privacy = true
   tech_privacy       = true
+}
+
+resource "aws_route53_record" "tr_com" {
+  zone_id = aws_route53_zone.tr_com.id
+  name    = "toyokorivera.com"
+  type    = "A"
+
+  alias {
+    name                   = aws_cloudfront_distribution.cf_distribution.domain_name
+    zone_id                = aws_cloudfront_distribution.cf_distribution.hosted_zone_id
+    evaluate_target_health = false
+  }
+}
+
+resource "aws_route53_record" "www_tr_com" {
+  zone_id = aws_route53_zone.tr_com.id
+  name    = "www.toyokorivera.com"
+  type    = "A"
+
+  alias {
+    name                   = aws_cloudfront_distribution.cf_distribution.domain_name
+    zone_id                = aws_cloudfront_distribution.cf_distribution.hosted_zone_id
+    evaluate_target_health = false
+  }
 }
 
 resource "aws_route53_record" "txt_record_protonmail_tr_com" {
